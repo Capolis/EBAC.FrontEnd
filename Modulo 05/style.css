@@ -1,0 +1,87 @@
+/* Reset básico e transições */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Configuração Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Principal */
+main {
+    background-color: white;
+    border: 2px solid #3b9eff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    color: #007bff;
+    text-shadow: #333 1px 1px 2px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Inputs e Select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+    box-shadow: #0056b3 0px 2px 5px;
+    color: #555;
+    font-size: 14px;}
+
+/* Botão Adicionar */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 25px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Campos de Exibição (Parágrafos) */
+p {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #add8e6;
+    border-radius: 8px;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* Destaque para o Total */
+#total {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #5cb8ff;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+}
